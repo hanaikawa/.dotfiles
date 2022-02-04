@@ -1,2 +1,10 @@
-# .dotfiles
-My .dotfiles for Linux
+Arch Packages:
+  I3-WM                       i3-gaps               (repo)
+  Awesome Font                ttf-font-awesome      (repo)          
+  conky                       conky                 (repo)
+  Rofi                        rofi                  (repo)
+  Polybar                     polybar               (yay)
+  Google Chrome               google-chrome         (yay)
+  Spotify                     spotify               (yay)
+  Visual Studio COde          code                  (repo)
+  Discord                     discord               (repo)
