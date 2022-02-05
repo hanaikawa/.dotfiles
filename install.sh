@@ -11,8 +11,6 @@ sudo pacman -S i3-gaps xf86-video-amdgpu xorg ttf-font-awesome easyeffects blueb
 echo installing i3 environment stage 2
 yay -S polybar picom-ibhagwan-git
 
-echo installing LightDM and Greeter
-sudo pacman -S lightdm lightdm-gtk-greeter
 echo installing Huawei WMI
 git clone https://github.com/aymanbagabas/Huawei-WMI
 cd Huawei-WMI
@@ -21,11 +19,6 @@ sudo cp huawei-wmi.ko /lib/modules/$(uname -r)/updates/
 sudo depmod
 sudo make install
 
-echo setting autologin
-sudo groupadd -r autologin
-sudo gpasswd -a hanaikawa autologin
-cd $HOME/Downloads/myconfigs
-sudo cp lightdm.conf /etc/lightdm/lightdm.conf
 
 echo installing pipewire
 sudo pacman -S pipewire-pulse
