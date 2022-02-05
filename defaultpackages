@@ -1,7 +1,8 @@
   I3-WM                       i3-gaps               (repo)
   Awesome Font                ttf-font-awesome      (repo)  
   Easy Effects                easyeffects           (repo)
-  conky                       conky                 (repo)
+  Blueberry                   blueberry             (repo)
+  Conky                       conky                 (repo)
   Rofi                        rofi                  (repo)
   Polybar                     polybar               (yay)
   Google Chrome               google-chrome         (yay)
@@ -9,3 +10,12 @@
   Visual Studio COde          code                  (repo)
   Discord                     discord               (repo)
   Picom                       picom-ibhagwan-git    (yay)
+  
+  
+  
+  
+  sudo pacman -S i3-gaps git base-devel ttf-font-awesome easyeffects blueberry rofi code discord
+  git clone https://aur.archlinux.org/yay.git
+  cd yay
+  makepkg -si
+  yay -S polybar google-chrome spotify picom-ibhagwan-git
