@@ -100,7 +100,7 @@ exec systemctl --user start pipewire-pulse.socket
 exec systemctl --user auto-cpufreq.service
 exec nohup easyeffects --gapplication-service
 exec alsactl --file ~/.config/asound.state restore
-exec sudo cp $home/.config/Huawei/Charging_Thresholds /sys/devices/platform/huawei-wmi/charge_control_thresholds
+exec cp $HOME/.config/Huawei/Charging_Thresholds /sys/devices/platform/huawei-wmi/charge_control_thresholds
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
 exec --no-startup-id dex --autostart --environment i3
